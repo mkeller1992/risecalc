@@ -1,0 +1,32 @@
+
+<div class = "content">
+	<br>
+	<div class="title">Parsed Inputs</div>
+	<br>
+	<p>
+		Source: 
+		<a href="https://www.npmjs.com/package/fast-xml-parser" target="_blank">
+			https://www.npmjs.com/package/fast-xml-parser
+		</a>
+	</p>
+
+	<br>
+
+	<div *ngFor="let u of calculationUnits">
+		<span *ngIf="isLineary(u)">
+			<div class="subtitle">Lineary Function:</div>
+			<p>a: {{u.a}}</p>
+			<p>b: {{u.b}}</p>
+			<p>Offset: {{u.offset}}</p>
+		</span>
+
+		<span *ngIf="isSigmoid(u)">
+			<div class="subtitle">Sigmoid Function:</div>
+			<p>Scale: {{u.scale}}</p>
+		</span>
+		<br>
+	</div>
+
+	<br>
+	<p>Xml-File must be stored in folder 'assets/docs'</p>
+</div>

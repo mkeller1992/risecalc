@@ -1,0 +1,26 @@
+
+
+	<rule name="XzTransformation" id="54321">
+	
+		<references>
+			<reference internalId="0" refId="12345" ></reference>
+			<reference internalId="1" refId="22222" ></reference>
+			<reference internalId="2" refId="33333" ></reference>
+			<reference internalId="3" refId="44444" ></reference>
+		</references>
+		
+		<conditions>
+			<if>
+				<condition>{0}>{1}&&{1}>{2}&&{2}!=0</condition>				
+				<statement>({0}+{1})/{2}</statement>
+			</if>
+			<elseif>
+				<condition>{0}>{1}</condition>				
+				<statement>{2}*{3}</statement>
+			</elseif>
+			<else>
+				<statements>0</statements>
+			</else>
+		</conditions>
+		
+	</rule>

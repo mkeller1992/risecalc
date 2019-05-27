@@ -1,0 +1,31 @@
+	* {
+		font-family: "Helvetica Neue", "Arial", sans-serif;
+		font-weight: 100;
+		font-variant-ligatures: normal;
+		font-size: 1rem;
+		letter-spacing: 1px;
+	}
+
+  	a,
+	a:visited {
+		font-size: 1rem;
+		color: blue;
+	}
+
+	a:hover {
+		color: red;
+	}
+
+	.content {
+		margin-left: 100px;
+	}
+  
+	.title {
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+
+	.subtitle {
+		font-weight: bold;
+	}
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FunctionData>
+    <Function Type = "Lineary">
+        <Interval>
+            <offset>5</offset>
+            <a>3</a>
+            <b>2</b>
+        </Interval>
+    </Function>
+    <Function Type = "Sigmoid">
+        <scale>1</scale>
+    </Function>
+</FunctionData>
